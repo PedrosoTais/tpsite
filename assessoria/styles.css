@@ -112,7 +112,7 @@ footer{background:#2f2d2c;color:#ddd;padding:36px 0}
 .footer-brand{display:flex;align-items:center;gap:12px}.footer-brand img{width:50px;border-radius:50%}.footer-brand div{display:flex;flex-direction:column}.footer-brand strong{font-family:Georgia,serif;color:#fff}.footer-brand small{font-size:9px;letter-spacing:.12em;text-transform:uppercase}
 .copyright{grid-column:1/-1;font-size:11px;color:#999;border-top:1px solid #484442;padding-top:18px;margin:0}
 
-.whatsapp-float{position:fixed;right:22px;bottom:22px;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#25D366;color:#fff;font-weight:800;box-shadow:0 12px 28px rgba(0,0,0,.18);z-index:40}
+
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
 .reveal.visible{opacity:1;transform:none}
 
