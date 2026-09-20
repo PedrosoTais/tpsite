@@ -138,9 +138,9 @@ footer{background:#2f2d2c;color:#ddd;padding:36px 0}
  .trust-row{display:grid}
 }
 
-/* BOTÃO FLUTUANTE WHATSAPP — DESIGN */
+/* WHATSAPP — TP ASSESSORIA */
 
-.whatsapp-float {
+a.whatsapp-float {
   position: fixed;
   right: 24px;
   bottom: 24px;
@@ -152,46 +152,41 @@ footer{background:#2f2d2c;color:#ddd;padding:36px 0}
   align-items: center;
   justify-content: center;
 
-  background: #090909;
-  border: 2px solid #00A86B; /* verde esmeralda */
+  background: #C98C95 !important;
+  border: 2px solid #C98C95 !important;
   border-radius: 50%;
 
-  color: #00A86B;
+  color: #FFFFFF !important;
 
-  box-shadow:
-    0 8px 25px rgba(0, 0, 0, 0.5),
-    0 0 16px rgba(0, 168, 107, 0.12);
+  box-shadow: 0 8px 24px rgba(201, 140, 149, 0.40) !important;
 
+  font-size: 0;
   z-index: 9999;
 
-  transition:
-    transform 0.25s ease,
-    background 0.25s ease,
-    box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.whatsapp-float svg {
+a.whatsapp-float svg {
+  display: block;
   width: 31px;
   height: 31px;
-  fill: currentColor;
+  fill: #FFFFFF !important;
 }
 
-.whatsapp-float:hover {
+a.whatsapp-float:hover {
+  background: #B97C86 !important;
+  border-color: #B97C86 !important;
+  color: #FFFFFF !important;
+
   transform: translateY(-4px) scale(1.06);
 
-  background: #00A86B;
-  color: #090909;
-
-  box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.55),
-    0 0 22px rgba(0, 168, 107, 0.35);
+  box-shadow: 0 12px 30px rgba(201, 140, 149, 0.55) !important;
 }
 
 @media (max-width: 600px) {
-  .whatsapp-float {
+  a.whatsapp-float {
     right: 16px;
     bottom: 16px;
-
     width: 54px;
     height: 54px;
   }
